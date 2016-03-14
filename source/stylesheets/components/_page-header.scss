@@ -1,0 +1,42 @@
+// PAGE HEADER
+
+//PAGE HEADER VARIABLES
+$home:       "../images/header-images/home.jpg";
+
+$home-mobile:       "../images/header-images/home.jpg";
+
+
+//PAGE HEADER LIST
+
+.page-header {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../images/hero.jpg') no-repeat center top;
+  height: 400px;
+  @include background-size(cover);
+  @include rem(padding, 20px);
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  @include media($tablet) { height: 600px; }
+
+  h1, p { color: $white-base;  }
+}
+
+.page-header{
+  @include rem(padding, 20px 0);
+
+
+  .header-text{
+    @include animation(fade-in-up 0.8s ease-in);
+    @include center;
+    text-align: center;
+    max-width: 750px;
+    @include rem(padding, 0px 20px);
+    @include vertical-horizontal-center;
+  }
+}
+
+@keyframes fade-in-up{
+  0%{opacity:0; @include transform(translateY(0%) translateX(-50%)); }
+  100%{ opacity:1; @include transform(translateY(-50%) translateX(-50%));}
+}

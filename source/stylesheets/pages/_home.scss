@@ -1,0 +1,210 @@
+[class*=-container]{
+  @include base-padding;
+  @include outer-container;
+}
+
+.centered-header{
+  @include center;
+  max-width: 700px;
+  text-align: center;
+  @include rem(margin-bottom, 50px);
+}
+
+/*-----------------------
+Intro
+-----------------------*/
+.intro-container{
+  position: relative;
+
+  img{
+    @include rem(margin-bottom, 30px);
+    @include media($tablet){
+      @include span-columns(5.5 of 12);
+      margin-bottom: 0px;
+    }
+  }
+
+  .intro-text{
+    @include media($tablet){
+      @include span-columns(6 of 12);
+      @include shift(0.5);
+    }
+
+    @include media($tablet-landscape) {
+      @include vertical-center;
+      margin-left: 50%;
+    }
+  }
+
+  li{
+    counter-increment: step-counter;
+    display: inline-block;
+    @include rem(margin-top, 30px);
+    width: 100%;
+    @include s-small;
+
+   &:before{
+      border-radius: 20em;
+      border: 1px solid $grey-base;
+      content: counter(step-counter);
+      color: $grey-base;
+      display: inline-block;
+      height: 40px;
+      @include rem(margin, -8px 15px 0 0);
+      line-height: 2.4;
+      text-align: center;
+      width: 40px;
+      float: left;
+    }
+  }
+}
+
+/*-----------------------
+About
+-----------------------*/
+.about-blocks{
+  position: relative;
+
+  @include media($tablet){
+    @include rem(margin, 0px 30px);
+    height: 500px;
+  }
+}
+
+.about-text{
+  background-color: $white-dark;
+  position: relative;
+  @include rem(padding, 30px 20px);
+
+  @include media($tablet){
+    @include rem(padding, 70px);
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
+}
+
+.image-block{
+  background: url('../../images/holding-plate.jpg') center no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+
+  @include media($tablet){
+    float: left;
+    height: 100%;
+    width: 50%;
+  }
+}
+
+.text-block{
+  @include media($tablet){
+    @include vertical-horizontal-center;
+    width: 75%;
+  }
+}
+
+
+/*-----------------------
+Testimonials
+-----------------------*/
+.testimonial-container{
+
+}
+
+blockquote{
+  @include s-medium;
+  font-weight: $light;
+  @include rem(margin-bottom, 20px);
+  line-height: normal;
+  position: relative;
+
+  @include media($tablet){
+    @include center;
+    @include s-big;
+    line-height: normal;
+    max-width: 700px;
+  }
+
+  &:before{
+    content: "\201C";
+    display: block;
+    font-family: Georgia;
+    @include position(absolute, -45px null null -30px);
+    @include s-giga;
+    color: $white-dark;
+    z-index: -1;
+  }
+}
+
+cite{
+   @include center;
+   text-align: center;
+
+  .headshot{
+    border-radius: 50%;
+    display: inline-block;
+    @include rem(margin-right, 10px);
+    width: 60px;
+    vertical-align: -12px;
+  }
+
+  p{
+    display: inline-block;
+    text-align: left;
+    @include rem(margin-top, 8px);
+  }
+}
+
+.cite-block{
+  display: inline-block;
+}
+
+/*-----------------------
+Pricing
+-----------------------*/
+.pricing-blocks{
+  li{
+    //counter-increment: step-counter;
+    display: inline-block;
+    @include rem(margin-top, 20px);
+    width: 100%;
+    @include s-small;
+
+   &:before{
+      border-radius: 20em;
+      border: 1px solid $grey-base;
+      content: "\2713";
+      color: $grey-base;
+      display: inline-block;
+      height: 30px;
+      @include rem(margin, -8px 15px 0 0);
+      line-height: 1.8;
+      text-align: center;
+      width: 30px;
+      float: left;
+      margin-top: -4px;
+    }
+  }
+}
+
+
+.pricing-blocks{
+  .image-block{
+    background: url('../../images/pouring-can.jpg') center no-repeat;
+    background-size: cover;
+  }
+}
+
+h2 span{
+  @include s-base;
+  letter-spacing: normal;
+}
+/*-----------------------
+Contact
+-----------------------*/
+.contact-container{
+  text-align: center;
+  h2{ @include rem(margin-bottom, 30px); }
+  a{ @include rem(margin-top, 30px); }
+}
