@@ -16,8 +16,11 @@ $home-mobile:       "../images/header-images/home.jpg";
   position: relative;
   width: 100%;
   z-index: 1;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 60%,rgba(255,255,255,1) 100%), url('../../images/hero.jpg') no-repeat center bottom; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  @include background-size(cover);
 
-  @include media($tablet) { height: 600px; }
+
+  @include media($tablet) { height: 850px; }
 
   h1, p { color: $white-base;  }
 }
@@ -33,6 +36,10 @@ $home-mobile:       "../images/header-images/home.jpg";
     max-width: 750px;
     @include rem(padding, 0px 20px);
     @include vertical-horizontal-center;
+
+    @include media($tablet){
+      @include rem(margin-top, -50px);
+    }
   }
 }
 

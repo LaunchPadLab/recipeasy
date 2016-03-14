@@ -15,7 +15,7 @@
         var thespeed = 1000;
         var offset = jQuery(target).offset().top;
         jQuery('html,body').animate({
-          scrollTop: offset
+          scrollTop: offset -60
         }, thespeed, 'swing');
         e.preventDefault();
       });
