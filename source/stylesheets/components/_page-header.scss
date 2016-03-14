@@ -9,16 +9,13 @@ $home-mobile:       "../images/header-images/home.jpg";
 //PAGE HEADER LIST
 
 .page-header {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../images/hero.jpg') no-repeat center top;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 60%,rgba(255,255,255,1) 100%), url('../../images/hero.jpg') no-repeat center bottom; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   height: 400px;
   @include background-size(cover);
   @include rem(padding, 20px);
   position: relative;
   width: 100%;
   z-index: 1;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 60%,rgba(255,255,255,1) 100%), url('../../images/hero.jpg') no-repeat center bottom; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  @include background-size(cover);
-
 
   @include media($tablet) { height: 850px; }
 
@@ -28,14 +25,13 @@ $home-mobile:       "../images/header-images/home.jpg";
 .page-header{
   @include rem(padding, 20px 0);
 
-
   .header-text{
     @include animation(fade-in-up 0.8s ease-in);
     @include center;
-    text-align: center;
-    max-width: 750px;
     @include rem(padding, 0px 20px);
     @include vertical-horizontal-center;
+    max-width: 750px;
+    text-align: center;
 
     @include media($tablet){
       @include rem(margin-top, -50px);
