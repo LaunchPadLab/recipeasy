@@ -35,3 +35,13 @@ Footer
     }
   }
 }
+
+p em a{
+  color: $grey-base;
+  font-weight: normal;
+  font-style: italic;
+
+  &:hover{
+    color: $white-base;
+  }
+}
