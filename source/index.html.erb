@@ -6,7 +6,7 @@ title: Recipeasy
   <div class="header-text">
     <h1>Cross 'Create an E-Book' off your to-do list</h1>
     <a href="#intro" id="ga-get-started" class="button-primary scroll-link">
-      Let's Go
+      Get Started
     </a>
   </div>
 </header>
@@ -20,9 +20,9 @@ title: Recipeasy
       <li>Choose your recipes and one of our layouts.</li>
       <li>Go pour yourself a glass of wine and relax.</li>
     </ol>
-    <a href="mailto:recipeasybooks@gmail.com" id="ga-contact-us-1" class="button-primary">
-      Contact Us
-    </a>
+    <label for="modal-1">
+      <p class="button-primary">Contact Us</p>
+    </label>
   </div>
 </section>
 
@@ -69,7 +69,40 @@ title: Recipeasy
 <section class="contact-container" id="contact">
   <h2 class="centered-header">Let’s get this dinner party started</h2>
   <p>Contact us to schedule a quick call. Email <a href="mailto:recipeasybooks@gmail.com">recipeasybooks@gmail.com.</a></p>
-  <a href="mailto:recipeasybooks@gmail.com" id="ga-contact-us-2" class="button-primary">
-    Contact Us
-  </a>
+  <label for="modal-1">
+    <p class="button-primary">Contact Us</p>
+  </label>
 </section>
+
+<div class="modal">
+  <input class="modal-state" id="modal-1" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1">&times;</div>
+      <div class="modal-content">
+        <h3>Send us a Message!</h3>
+        <form action="https://formspree.io/recipeasybooks@gmail.com" method="POST" target="_blank">
+        <div class="half-fields">
+            <div class="field half-field">
+              <label>Name</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="field half-field">
+              <label>Email</label>
+              <input type="email" name="email" placholder="Email address" required>
+            </div>
+            </div>
+            <div class="field">
+              <label>Name of your Blog</label>
+              <input type="text" name="blog_name">
+            </div>
+            <div class="field">
+              <label>How can we help?</label>
+              <textarea type="text" name="message" required></textarea>
+            </div>
+            <input type="submit" id="form-submit" value="Send" class="button-primary">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
