@@ -211,6 +211,37 @@ Pricing
   }
 }
 
+/*-----------------------
+Book Collection
+-----------------------*/
+.books-container{
+  h2{ @include rem(margin-bottom, 30px); }
+  text-align: center;
+}
+
+.books-block{
+  li{
+    @include rem(margin-top, 30px);
+    text-align: center;
+
+    @include media($tablet){
+      @include span-columns(4 of 12);
+      @include omega(3n);
+    }
+
+    img{
+      @include center;
+      width: 60%;
+
+      @include media($tablet){
+        width: 100%;
+      }
+    }
+
+    label{ margin-top: 0px; }
+  }
+}
+
 
 /*-----------------------
 Contact
@@ -224,5 +255,13 @@ Contact
 .modal-inner{
   h3{
     @include rem(padding-right, 40px);
+  }
+}
+
+.grey-wrapper{
+  background-color: $white-dark;
+
+  @include media($tablet){
+    @include rem(margin, 30px);
   }
 }
