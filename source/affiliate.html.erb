@@ -1,0 +1,66 @@
+---
+title: Join our Affiliate Program
+subtitle: Affiliate Program
+---
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+
+<header class="page-header affiliates">
+  <div class="header-text">
+    <h1>Join our Exclusive Affiliate Program</h1>
+  </div>
+</header>
+
+<section class="affiliate-container">
+  <div class="affiliate-block">
+    <p>As a customer of Recipeasy, we want to make sure we are continuing to support you and your blog in every way possible. Your custom designed eCookbook was hopefully just the start of a great relationship.</p>
+    <p>We offer our customers exclusive access to our Affiliate Program. Monetizing your blog is important to you, and continuing to grow Recipeasy is important to us. We think this program provides a perfect harmony between these two goals.</p>
+    <hr>
+    <h3>Getting started is simple</h3>
+    <p>All you have to do is copy this link below, and share it with other food bloggers who you think may find Recipeasy helpful. This link provides a custom contact form, so we can tie those requests back to you.</p>
+
+    <!-- Target -->
+    <input id="custom-link" value="" readonly="readonly">
+
+    <!-- Trigger -->
+    <button class="button-primary" data-clipboard-target="#custom-link">
+      Copy Link
+    </button>
+    <br>
+    <br>
+    <br>
+    <p>In addition, you can include an ad for Recipeasy on your site if you would like. Please include this image, and link it to the URL above (it's how we will know it came from you).</p>
+    <a href="images/recipeasy-ad.jpg" download class="ad-download">
+      <img src="images/recipeasy-ad.jpg" alt="Recipeasy Ad Collateral">
+    </a>
+    <a href="images/recipeasy-ad.jpg" download class="button-primary">Download Image</a>
+    <hr>
+    <h3>How much do you earn?</h3>
+    <p>For every new customer that purchases an eCookbook from us through your link, we will send $20 your way.</strong> For clarity sake, you will not be compensated for returning customer purchases, just their initial eCookbook purchase.</p>
+  </div>
+</section>
+
+<script>
+  new Clipboard('.btn');
+
+  function getNameVar() {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars['name'];
+  }
+
+  function setCustomLink() {
+    var baseurl = 'http://recipeasy.co?affiliate_lead=';
+    var name = getNameVar();
+    var input = document.getElementById("custom-link");
+
+    input.value = baseurl + name;
+  }
+  setCustomLink();
+</script>
