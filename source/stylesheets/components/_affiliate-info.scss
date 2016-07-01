@@ -1,14 +1,7 @@
 // PAGE HEADER
 
-.affiliate-header {
-  background-color: $grey-lighter;
-  @include background-size(cover);
-  @include rem(padding, 20px);
-  position: relative;
-  width: 100%;
-  z-index: 1;
-
-  @include media($tablet) { height: 1100px; }
+.affiliate-container {
+  background-color: $white-base;
 
   h2, h3, p { color: $black-base;  }
   h3 { font-weight:  $light; }
@@ -16,19 +9,41 @@
   p { font-size: $s-big;
       line-height: $base-line-loose;
   }
-}
 
-.affiliate-header{
-  @include rem(padding, 20px 0);
-
-  .header-text{
-    @include rem(padding, 40px 20px);
-    @include horizontal-center;
-    max-width: 750px;
-    text-align: left;
-
+  .affiliate-block{
     @include media($tablet){
-      @include rem(margin-top, $desktop-nav-height * 1);
+      @include span-columns(10 of 12);
+      @include shift(1);
+    }
+    @include media($tablet-landscape){
+      @include span-columns(7 of 12);
+      @include shift(2.5);
+      width: 600px;
     }
   }
+}
+
+
+
+.affiliates{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 60%,rgba(255,255,255,1) 100%), url('../../images/mugs.jpg') no-repeat center bottom;
+  height: 400px;
+  @include background-size(cover);
+
+  &.page-header .header-text{
+    @include rem(margin-top, 0px);
+  }
+}
+
+//Ad Download
+.ad-download{
+  display: block;
+  width: 300px;
+}
+
+//Hr
+hr{
+  border: none;
+  border-bottom: 1px solid $grey-light;
+  @include rem(margin, 50px 0px);
 }
