@@ -226,3 +226,7 @@ Contact
     @include rem(padding-right, 40px);
   }
 }
+
+.modal-button-label {
+  display: inline-block;
+}
