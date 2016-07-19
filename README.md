@@ -12,4 +12,5 @@ Create E-Recipe books for food bloggers
 ## Troubleshooting Deployment
 1. Delete `build` folder. If you have run ``be rake publish`` and it fails, there may be a duplicate folder in folder tree. Make sure to delete.
 2. Try deleting you local version of branch `gh-pages`. ```git branch -d gh-pages```
+3. Delete remote branch of gh-pages. ```git push origin :gh-pages```. *CAUTION: THIS WILL CAUSE SITE DOWNTIME AS SITE WILL NO LONGER BE SERVED FROM GITHUB UNTIL NEW BUILD IS COMPLETE*
 
