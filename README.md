@@ -14,3 +14,4 @@ Create E-Recipe books for food bloggers
 2. Try deleting you local version of ```git branch -d gh-pages```
 3. Delete remote branch of gh-pages. ```git push origin :gh-pages```. *CAUTION: THIS WILL CAUSE SITE DOWNTIME AS SITE WILL NO LONGER BE SERVED FROM GITHUB UNTIL NEW BUILD IS COMPLETE.* It also may take a few minutes for the new site to go live.
 
+1. testing
