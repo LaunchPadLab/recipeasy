@@ -1,0 +1,2142 @@
+/* line 4, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* line 6, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 16, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 22, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 29, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+/* line 35, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* line 40, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 82, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/mixins/_layout.scss */
+img {
+  width: 100%; }
+
+/* line 99, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/settings/mixins/_layout.scss */
+.horizontal-divider {
+  border-bottom: 1px solid #9B9B9B; }
+
+/* line 4, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 9, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font: 100%/1.618;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 18, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 12px;
+  margin-bottom: 0.85714rem;
+  color: #374249;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  line-height: 1.1; }
+  @media screen and (min-width: 45em) {
+    /* line 18, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      letter-spacing: 2px;
+      font-weight: 300; } }
+
+/* line 37, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h1 {
+  font-size: 24.5px; }
+  @media screen and (min-width: 45em) {
+    /* line 37, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+    h1 {
+      font-size: 56px; } }
+
+/* line 38, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h2 {
+  font-size: 21px; }
+  @media screen and (min-width: 45em) {
+    /* line 38, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+    h2 {
+      font-size: 38.5px; } }
+
+/* line 39, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h3 {
+  font-size: 20.3px; }
+  @media screen and (min-width: 45em) {
+    /* line 39, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+    h3 {
+      font-size: 35px; } }
+
+/* line 40, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h4 {
+  font-size: 17.5px; }
+  @media screen and (min-width: 45em) {
+    /* line 40, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+    h4 {
+      font-size: 24.5px; } }
+
+/* line 41, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h5 {
+  font-size: 14px; }
+  @media screen and (min-width: 45em) {
+    /* line 41, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+    h5 {
+      font-size: 17.5px; } }
+
+/* line 42, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h6 {
+  font-size: 12px; }
+  @media screen and (min-width: 45em) {
+    /* line 42, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+    h6 {
+      font-size: 14px; } }
+
+/* line 44, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h3, h4, h5 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+/* line 49, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+h2 {
+  margin-bottom: 20px;
+  margin-bottom: 1.42857rem; }
+
+/* line 53, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+p {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  margin-bottom: 12px;
+  margin-bottom: 0.85714rem;
+  line-height: 21px;
+  color: #374249; }
+  /* line 62, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+  p:last-child {
+    margin-bottom: 0; }
+
+/* line 65, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+li,
+dd {
+  color: #374249;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  list-style: none; }
+
+/* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+a {
+  color: #374249;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-weight: 700; }
+  /* line 80, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+  a:hover {
+    color: #032134;
+    text-decoration: none; }
+  /* line 85, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+  a:active, a:focus {
+    outline: none; }
+
+/* line 91, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+strong, b {
+  font-weight: 700; }
+
+/* line 92, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/base/_typography.scss */
+i, em {
+  font-style: italic; }
+
+/* line 36, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-small {
+  padding: 5px 6px;
+  padding: 0.35714rem 0.42857rem;
+  font-size: 12px;
+  font-size: 0.85714rem; }
+
+/* line 41, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-large {
+  padding: 15px 12px;
+  padding: 1.07143rem 0.85714rem; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-default {
+  background-color: #042F49;
+  border: 1px solid #032134;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-default text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-default:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-default:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-default:hover {
+    background-color: #032134;
+    border: 1px solid #032134;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-default:active {
+    background-color: #032134;
+    border: 1px solid #032134;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-default:focus {
+    border: 1px solid #032134; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-default {
+  color: #042F49;
+  border-bottom: 2px solid #042F49;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-default:hover {
+    color: #042F49;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-primary {
+  background-color: #C70018;
+  border: 1px solid #C70018;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-primary text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-primary:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-primary:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-primary:hover {
+    background-color: #b30016;
+    border: 1px solid #b30016;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-primary:active {
+    background-color: #b30016;
+    border: 1px solid #b30016;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-primary:focus {
+    border: 1px solid #b30016; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-primary {
+  color: #C70018;
+  border-bottom: 2px solid #C70018;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-primary:hover {
+    color: #C70018;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-red-outline {
+  background-color: transparent;
+  border: 1px solid #C70018;
+  color: #C70018;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-red-outline text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-red-outline:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-red-outline:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-red-outline:hover {
+    background-color: #C70018;
+    border: 1px solid #C70018;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-red-outline:active {
+    background-color: #C70018;
+    border: 1px solid #C70018;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-red-outline:focus {
+    border: 1px solid #C70018; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-red-outline {
+  color: transparent;
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-red-outline:hover {
+    color: transparent;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-black-base {
+  background-color: #15191C;
+  border: 1px solid #15191C;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-black-base text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-black-base:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-black-base:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-black-base:hover {
+    background-color: #15191C;
+    border: 1px solid #15191C;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-black-base:active {
+    background-color: #15191C;
+    border: 1px solid #15191C;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-black-base:focus {
+    border: 1px solid #15191C; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-black-base {
+  color: #15191C;
+  border-bottom: 2px solid #15191C;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-black-base:hover {
+    color: #15191C;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-white-outline {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-white-outline text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-white-outline:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-white-outline:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-white-outline:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #374249;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-white-outline:active {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #2c353a; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-white-outline:focus {
+    border: 1px solid #FFFFFF; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-white-outline {
+  color: transparent;
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-white-outline:hover {
+    color: transparent;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-success {
+  background-color: #85C486;
+  border: 1px solid #5B945C;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-success text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-success:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-success:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-success:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-success:active {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-success:focus {
+    border: 1px solid #FFFFFF; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-success {
+  color: #85C486;
+  border-bottom: 2px solid #85C486;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-success:hover {
+    color: #85C486;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-warning {
+  background-color: #EBB129;
+  border: 1px solid #E5A100;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-warning text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-warning:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-warning:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-warning:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-warning:active {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-warning:focus {
+    border: 1px solid #FFFFFF; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-warning {
+  color: #EBB129;
+  border-bottom: 2px solid #EBB129;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-warning:hover {
+    color: #EBB129;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-danger {
+  background-color: #C70018;
+  border: 1px solid #b30016;
+  color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-danger text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-danger:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-danger:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-danger:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-danger:active {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-danger:focus {
+    border: 1px solid #FFFFFF; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-danger {
+  color: #C70018;
+  border-bottom: 2px solid #C70018;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-danger:hover {
+    color: #C70018;
+    opacity: 0.6; }
+
+/* line 54, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.button-inverse {
+  background-color: #FFFFFF;
+  border: 1px solid #F7F7F7;
+  color: #374249;
+  border-radius: 2px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 1px;
+  margin: 0.35714rem 0 0.07143rem;
+  padding: 12px 12px;
+  padding: 0.85714rem 0.85714rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  line-height: normal;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none; }
+  /* line 19, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-inverse text {
+    align: center;
+    decoration: none; }
+  /* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-inverse:hover {
+    cursor: pointer; }
+  /* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-inverse:focus {
+    border: none;
+    outline: none;
+    text-decoration: none; }
+  /* line 60, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-inverse:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    opacity: 1; }
+  /* line 67, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-inverse:active {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #f2f2f2; }
+  /* line 73, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .button-inverse:focus {
+    border: 1px solid #FFFFFF; }
+
+/* line 77, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.link-inverse {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  margin-top: 1.07143rem;
+  padding-bottom: 3px;
+  padding-bottom: 0.21429rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  /* line 89, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .link-inverse:hover {
+    color: #FFFFFF;
+    opacity: 0.6; }
+
+@media screen and (min-width: 45em) {
+  /* line 98, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .scroll-on-page aside {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .scroll-on-page aside:last-child {
+      margin-right: 0; } }
+/* line 104, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+.scroll-on-page .scroll-link {
+  display: block;
+  outline: none; }
+@media screen and (min-width: 45em) {
+  /* line 109, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_buttons.scss */
+  .scroll-on-page article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+    .scroll-on-page article:last-child {
+      margin-right: 0; } }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.facebook-xsmall {
+  background-position: 0px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.facebook-small {
+  background-position: 0px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.facebook-large {
+  background-position: 0px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.facebook-xl {
+  background-position: 0px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.twitter-xsmall {
+  background-position: -20px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.twitter-small {
+  background-position: -35px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.twitter-large {
+  background-position: -70px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.twitter-xl {
+  background-position: -140px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.instagram-xsmall {
+  background-position: -40px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.instagram-small {
+  background-position: -70px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.instagram-large {
+  background-position: -140px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.instagram-xl {
+  background-position: -280px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.dribbble-xsmall {
+  background-position: -60px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.dribbble-small {
+  background-position: -105px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.dribbble-large {
+  background-position: -210px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.dribbble-xl {
+  background-position: -420px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.github-xsmall {
+  background-position: -80px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.github-small {
+  background-position: -140px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.github-large {
+  background-position: -280px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.github-xl {
+  background-position: -560px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.email-xsmall {
+  background-position: -100px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.email-small {
+  background-position: -175px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.email-large {
+  background-position: -350px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.email-xl {
+  background-position: -700px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.linked-in-xsmall {
+  background-position: -120px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.linked-in-small {
+  background-position: -210px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.linked-in-large {
+  background-position: -420px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.linked-in-xl {
+  background-position: -840px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.google-plus-xsmall {
+  background-position: -140px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.google-plus-small {
+  background-position: -245px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.google-plus-large {
+  background-position: -490px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.google-plus-xl {
+  background-position: -980px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.pinterest-xsmall {
+  background-position: -160px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.pinterest-small {
+  background-position: -280px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.pinterest-large {
+  background-position: -560px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.pinterest-xl {
+  background-position: -1120px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.youtube-xsmall {
+  background-position: -180px -35px;
+  background-size: 200px 40px;
+  height: 20px;
+  width: 20px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.youtube-small {
+  background-position: -315px -35px;
+  background-size: 350px 70px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.youtube-large {
+  background-position: -630px -35px;
+  background-size: 700px 140px;
+  height: 70px;
+  width: 70px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/* line 48, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_sprite.scss */
+.youtube-xl {
+  background-position: -1260px -35px;
+  background-size: 1400px 280px;
+  height: 140px;
+  width: 140px;
+  background-image: url("../../images/sprite.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999px;
+  vertical-align: middle; }
+
+/*-----------------------
+Footer
+-----------------------*/
+/* line 5, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+.page-footer {
+  background-color: #222222;
+  clear: both;
+  text-align: center; }
+  /* line 10, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+  .page-footer .footer-container {
+    padding: 45px 20px;
+    padding: 3.21429rem 1.42857rem; }
+  /* line 14, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+  .page-footer p {
+    color: #9B9B9B;
+    margin: 0px;
+    opacity: 0.5; }
+
+/* line 21, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+.social-media {
+  margin-bottom: 10px;
+  margin-bottom: 0.71429rem; }
+  /* line 24, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+  .social-media li {
+    display: inline-block;
+    margin: 10px;
+    margin: 0.71429rem; }
+    /* line 28, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+    .social-media li a {
+      background-color: #9B9B9B;
+      border-radius: 50%;
+      display: inline-block;
+      opacity: 0.5; }
+      /* line 34, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+      .social-media li a:hover {
+        opacity: 1; }
+      /* line 36, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+      .social-media li a i {
+        opacity: 0.7; }
+
+/* line 41, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+p em a {
+  color: #9B9B9B;
+  font-weight: normal;
+  font-style: italic; }
+  /* line 46, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_footer.scss */
+  p em a:hover {
+    color: #FFFFFF; }
+
+/* line 8, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+.navigation.active {
+  background-color: #222222; }
+/* line 12, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+.navigation .navigation-container {
+  padding: 15px 20px;
+  padding: 1.07143rem 1.42857rem;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+/*-----------------------
+Logo
+-----------------------*/
+/* line 24, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+.logo {
+  width: 140px; }
+  @media screen and (min-width: 45em) {
+    /* line 24, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+    .logo {
+      float: left;
+      width: 170px;
+      z-index: 99999; } }
+
+/*-----------------------
+Primary Nav
+-----------------------*/
+/* line 36, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+.navigation {
+  position: fixed;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 9999; }
+  /* line 43, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+  .navigation .navigation-menu {
+    text-align: right;
+    float: right;
+    display: none; }
+    @media screen and (min-width: 45em) {
+      /* line 43, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+      .navigation .navigation-menu {
+        display: block; } }
+  /* line 49, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+  .navigation li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    margin: 0 0 0 1.07143rem;
+    text-transform: uppercase;
+    vertical-align: -webkit-baseline-middle;
+    text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.15); }
+    /* line 56, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_navigation.scss */
+    .navigation li a {
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 12px;
+      font-size: 0.85714rem;
+      letter-spacing: 1px; }
+
+/* line 11, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_page-header.scss */
+.page-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 60%, white 100%), url("../../images/hero.jpg") no-repeat center bottom;
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px;
+  padding: 1.42857rem;
+  position: relative;
+  width: 100%;
+  z-index: 1; }
+  @media screen and (min-width: 45em) {
+    /* line 11, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_page-header.scss */
+    .page-header {
+      height: 850px; } }
+  /* line 22, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_page-header.scss */
+  .page-header h1, .page-header p {
+    color: #FFFFFF; }
+
+/* line 25, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_page-header.scss */
+.page-header {
+  padding: 20px 0;
+  padding: 1.42857rem 0; }
+  /* line 28, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_page-header.scss */
+  .page-header .header-text {
+    -webkit-animation: fade-in-up 0.8s ease-in;
+    -moz-animation: fade-in-up 0.8s ease-in;
+    animation: fade-in-up 0.8s ease-in;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px 20px;
+    padding: 0px 1.42857rem;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    max-width: 750px;
+    text-align: center; }
+    @media screen and (min-width: 45em) {
+      /* line 28, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_page-header.scss */
+      .page-header .header-text {
+        margin-top: -50px;
+        margin-top: -3.57143rem; } }
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0%) translateX(-50%);
+    -moz-transform: translateY(0%) translateX(-50%);
+    -ms-transform: translateY(0%) translateX(-50%);
+    -o-transform: translateY(0%) translateX(-50%);
+    transform: translateY(0%) translateX(-50%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%); } }
+/* line 3, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+.affiliate-container {
+  background-color: #FFFFFF; }
+  /* line 6, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+  .affiliate-container h2, .affiliate-container h3, .affiliate-container p {
+    color: #374249; }
+  /* line 7, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+  .affiliate-container h3 {
+    font-weight: 300; }
+  /* line 9, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+  .affiliate-container p {
+    font-size: 18px;
+    line-height: 26.6px; }
+  @media screen and (min-width: 45em) {
+    /* line 13, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+    .affiliate-container .affiliate-block {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 8.5298%; }
+      /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .affiliate-container .affiliate-block:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 64em) and (orientation: landscape) {
+    /* line 13, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+    .affiliate-container .affiliate-block {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      margin-left: 21.32451%;
+      width: 600px; }
+      /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .affiliate-container .affiliate-block:last-child {
+        margin-right: 0; } }
+
+/* line 28, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+.affiliates {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 60%, white 100%), url("../../images/mugs.jpg") no-repeat center bottom;
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  /* line 33, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+  .affiliates.page-header .header-text {
+    margin-top: 0px; }
+
+/* line 39, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+.ad-download {
+  display: block;
+  width: 300px; }
+
+/* line 45, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_affiliate-info.scss */
+hr {
+  border: none;
+  border-bottom: 1px solid #C3C2C2;
+  margin: 50px 0px;
+  margin: 3.57143rem 0px; }
+
+/* line 5, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal label {
+  cursor: pointer;
+  font-weight: normal; }
+/* line 10, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal .modal-state {
+  display: none; }
+/* line 14, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal .modal-fade-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  visibility: hidden;
+  z-index: 99999; }
+  @media screen and (min-width: 50em) {
+    /* line 14, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+    .modal .modal-fade-screen {
+      padding-top: 10em; } }
+/* line 27, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal .modal-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer; }
+/* line 32, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal .modal-close {
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  font-size: 38px;
+  font-size: 2.71429rem; }
+/* line 38, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal .modal-inner {
+  background-color: #fff;
+  padding: 30px;
+  padding: 2.14286rem;
+  margin: auto;
+  max-height: 95%;
+  overflow: auto;
+  position: relative;
+  top: 0.5em;
+  transition: opacity 0.25s ease;
+  width: 95%; }
+  @media screen and (min-width: 30em) {
+    /* line 38, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+    .modal .modal-inner {
+      width: 60%; } }
+  @media screen and (min-width: 50em) {
+    /* line 38, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+    .modal .modal-inner {
+      width: 600px; } }
+/* line 58, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal .modal-state:checked + .modal-fade-screen {
+  opacity: 1;
+  visibility: visible; }
+
+/* line 64, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal-open {
+  overflow: hidden; }
+
+/* line 68, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_modal.scss */
+.modal-closed {
+  overflow: auto; }
+
+/* line 5, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_forms.scss */
+label {
+  margin: 20px 0 4px;
+  margin: 1.42857rem 0 0.28571rem;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  display: block; }
+
+/* line 14, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  font-size: 1rem;
+  border: 1px solid #DEDEDE;
+  border-radius: 1px;
+  box-sizing: border-box;
+  padding: 8px;
+  padding: 0.57143rem;
+  width: 100%;
+  -webkit-font-smoothing: antialiased; }
+  /* line 29, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_forms.scss */
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+  select:focus,
+  textarea:focus {
+    -webkit-box-shadow: 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 transparent;
+    -o-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    border-color: #042F49;
+    outline: none; }
+
+/* line 36, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_forms.scss */
+textarea,
+textarea[type="text"] {
+  height: 100px;
+  margin-bottom: 12px;
+  margin-bottom: 0.85714rem; }
+
+/* line 39, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_forms.scss */
+.half-fields {
+  display: inline-block;
+  width: 100%; }
+  @media screen and (min-width: 45em) {
+    /* line 43, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/components/_forms.scss */
+    .half-fields .half-field {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .half-fields .half-field:last-child {
+        margin-right: 0; } }
+
+/* line 1, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+[class*=-container] {
+  padding: 40px 20px;
+  padding: 2.85714rem 1.42857rem;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  @media screen and (min-width: 45em) {
+    /* line 1, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    [class*=-container] {
+      padding: 80px 20px;
+      padding: 5.71429rem 1.42857rem; } }
+  /* line 20, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bourbon-4.2.6/app/assets/stylesheets/addons/_clearfix.scss */
+  [class*=-container]::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 6, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.centered-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-bottom: 3.57143rem; }
+
+/* line 13, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.image-block {
+  height: 300px;
+  width: 100%; }
+  @media screen and (min-width: 45em) {
+    /* line 13, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .image-block {
+      float: left;
+      height: 100%;
+      width: 40%; } }
+  @media screen and (min-width: 64em) and (orientation: landscape) {
+    /* line 13, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .image-block {
+      width: 50%; } }
+
+@media screen and (min-width: 45em) {
+  /* line 28, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .text-block-content {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    width: 75%; } }
+
+/*-----------------------
+Intro
+-----------------------*/
+/* line 38, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.intro-container {
+  position: relative;
+  padding-top: 0px; }
+  /* line 42, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .intro-container img {
+    margin-bottom: 30px;
+    margin-bottom: 2.14286rem; }
+    @media screen and (min-width: 45em) {
+      /* line 42, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+      .intro-container img {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 44.55627%;
+        margin-bottom: 0px; }
+        /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+        .intro-container img:last-child {
+          margin-right: 0; } }
+  @media screen and (min-width: 45em) {
+    /* line 51, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .intro-container .intro-text {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-left: 4.2649%; }
+      /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .intro-container .intro-text:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 64em) and (orientation: landscape) {
+    /* line 51, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .intro-container .intro-text {
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      margin-left: 50%;
+      margin-top: -40px;
+      margin-top: -2.85714rem; } }
+  /* line 64, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .intro-container li {
+    counter-increment: step-counter;
+    display: flex;
+    margin-bottom: 20px;
+    margin-bottom: 1.42857rem;
+    font-size: 12px;
+    font-size: 0.85714rem;
+    width: 100%; }
+    /* line 71, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .intro-container li:before {
+      border-radius: 20em;
+      border: 1px solid #9B9B9B;
+      content: counter(step-counter);
+      color: #9B9B9B;
+      display: inline-table;
+      float: left;
+      height: 30px;
+      margin: -4px 15px 0 0;
+      margin: -0.28571rem 1.07143rem 0 0;
+      line-height: 2;
+      text-align: center;
+      width: 30px; }
+
+/*-----------------------
+About
+-----------------------*/
+/* line 90, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.about-blocks {
+  position: relative; }
+  @media screen and (min-width: 45em) {
+    /* line 90, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .about-blocks {
+      height: 500px;
+      margin: 0px 30px;
+      margin: 0px 2.14286rem; } }
+  /* line 98, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .about-blocks .image-block {
+    background: url("../../images/holding-plate.jpg") center no-repeat;
+    background-size: cover; }
+
+/* line 104, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.text-block {
+  background-color: #F7F7F7;
+  padding: 30px 20px;
+  padding: 2.14286rem 1.42857rem;
+  position: relative; }
+  @media screen and (min-width: 45em) {
+    /* line 104, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .text-block {
+      float: left;
+      height: 100%;
+      padding: 70px;
+      padding: 5rem;
+      width: 60%; } }
+  @media screen and (min-width: 64em) and (orientation: landscape) {
+    /* line 104, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .text-block {
+      width: 50%; } }
+
+/*-----------------------
+Testimonials
+-----------------------*/
+/* line 124, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+blockquote {
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-bottom: 1.42857rem;
+  font-size: 16px;
+  font-size: 1.14286rem;
+  line-height: normal;
+  line-height: normal;
+  position: relative; }
+  @media screen and (min-width: 45em) {
+    /* line 124, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    blockquote {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      font-size: 18px;
+      font-size: 1.28571rem;
+      line-height: 26.6px;
+      line-height: 1.9rem;
+      line-height: normal;
+      max-width: 700px; } }
+  /* line 138, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  blockquote:before {
+    color: #F7F7F7;
+    content: "\201C";
+    display: block;
+    font-family: Georgia;
+    position: absolute;
+    top: -45px;
+    left: -30px;
+    font-size: 160px;
+    font-size: 11.42857rem;
+    z-index: -1; }
+
+/* line 149, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+cite {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center; }
+  /* line 153, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  cite .cite-block {
+    display: inline-block; }
+  /* line 157, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  cite .headshot {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-right: 0.71429rem;
+    width: 60px;
+    vertical-align: -12px; }
+  /* line 165, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  cite p {
+    display: inline-block;
+    margin-top: 8px;
+    margin-top: 0.57143rem;
+    text-align: left; }
+
+/*-----------------------
+Pricing
+-----------------------*/
+/* line 179, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.pricing-blocks .image-block {
+  background: url("../../images/pouring-can.jpg") center no-repeat;
+  background-size: cover; }
+/* line 184, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.pricing-blocks li {
+  display: flex;
+  margin-top: 20px;
+  margin-top: 1.42857rem;
+  width: 100%;
+  font-size: 12px;
+  font-size: 0.85714rem; }
+  /* line 190, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .pricing-blocks li:before {
+    background: url("../../images/checkmark.svg") center no-repeat;
+    background-size: 14px;
+    border-radius: 20em;
+    border: 1px solid #9B9B9B;
+    color: #9B9B9B;
+    content: "";
+    display: inline-table;
+    height: 30px;
+    float: left;
+    margin: -4px 15px 0 0;
+    margin: -0.28571rem 1.07143rem 0 0;
+    line-height: 1.8;
+    text-align: center;
+    width: 30px; }
+/* line 207, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.pricing-blocks h4 span {
+  font-size: 14px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-bottom: 1.42857rem;
+  letter-spacing: normal; }
+
+/*-----------------------
+Book Collection
+-----------------------*/
+/* line 217, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.books-container {
+  text-align: center; }
+  /* line 218, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .books-container h2 {
+    margin-bottom: 30px;
+    margin-bottom: 2.14286rem; }
+
+/* line 223, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.books-block li {
+  margin-top: 30px;
+  margin-top: 2.14286rem;
+  text-align: center; }
+  @media screen and (min-width: 45em) {
+    /* line 223, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .books-block li {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      /* line 89, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_span-columns.scss */
+      .books-block li:last-child {
+        margin-right: 0; }
+      /* line 78, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_omega.scss */
+      .books-block li:nth-child(3n) {
+        margin-right: 0; }
+      /* line 83, /Users/paulgonzalez/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/neat-1.7.2/app/assets/stylesheets/grid/_omega.scss */
+      .books-block li:nth-child(3n+1) {
+        clear: left; } }
+  /* line 232, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .books-block li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: 60%; }
+    @media screen and (min-width: 45em) {
+      /* line 232, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+      .books-block li img {
+        width: 100%; } }
+  /* line 241, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .books-block li label {
+    margin-top: 0px; }
+
+/*-----------------------
+Contact
+-----------------------*/
+/* line 249, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.contact-container {
+  text-align: center; }
+  /* line 251, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .contact-container h2 {
+    margin-bottom: 30px;
+    margin-bottom: 2.14286rem; }
+  /* line 252, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+  .contact-container a {
+    margin-top: 30px;
+    margin-top: 2.14286rem; }
+
+/* line 256, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.modal-inner h3 {
+  padding-right: 40px;
+  padding-right: 2.85714rem; }
+
+/* line 261, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.modal-button-label {
+  display: inline-block; }
+
+/* line 265, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+.grey-wrapper {
+  background-color: #F7F7F7; }
+  @media screen and (min-width: 45em) {
+    /* line 265, /Users/paulgonzalez/workspace/launchpad/recipeasy/recipeasy_marketing_site/source/stylesheets/pages/_home.scss */
+    .grey-wrapper {
+      margin: 30px;
+      margin: 2.14286rem; } }

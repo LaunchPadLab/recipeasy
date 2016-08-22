@@ -1,0 +1,271 @@
+[class*=-container]{
+  @include base-padding;
+  @include outer-container;
+}
+
+.centered-header{
+  @include center;
+  max-width: 700px;
+  text-align: center;
+  @include rem(margin-bottom, 50px);
+}
+
+.image-block{
+  height: 300px;
+  width: 100%;
+
+  @include media($tablet){
+    float: left;
+    height: 100%;
+    width: 40%;
+  }
+
+  @include media($tablet-landscape) {
+    width: 50%;
+  }
+}
+
+.text-block-content{
+  @include media($tablet){
+    @include vertical-horizontal-center;
+    width: 75%;
+  }
+}
+
+/*-----------------------
+Intro
+-----------------------*/
+.intro-container{
+  position: relative;
+  padding-top: 0px;
+
+  img{
+    @include rem(margin-bottom, 30px);
+
+    @include media($tablet){
+      @include span-columns(5.5 of 12);
+      margin-bottom: 0px;
+    }
+  }
+
+  .intro-text{
+    @include media($tablet){
+      @include span-columns(6 of 12);
+      @include shift(0.5);
+    }
+
+    @include media($tablet-landscape) {
+      @include vertical-center;
+      margin-left: 50%;
+      @include rem(margin-top, -40px);
+    }
+  }
+
+  li{
+    counter-increment: step-counter;
+    display: flex;
+    @include rem(margin-bottom, 20px);
+    @include s-small;
+    width: 100%;
+
+   &:before{
+      border-radius: 20em;
+      border: 1px solid $grey-base;
+      content: counter(step-counter);
+      color: $grey-base;
+      display: inline-table;
+      float: left;
+      height: 30px;
+      @include rem(margin, -4px 15px 0 0);
+      line-height: 2;
+      text-align: center;
+      width: 30px;
+    }
+  }
+}
+
+/*-----------------------
+About
+-----------------------*/
+.about-blocks{
+  position: relative;
+
+  @include media($tablet){
+    height: 500px;
+    @include rem(margin, 0px 30px);
+  }
+
+  .image-block{
+    background: url('../../images/holding-plate.jpg') center no-repeat;
+    background-size: cover;
+  }
+}
+
+.text-block{
+  background-color: $white-dark;
+  @include rem(padding, 30px 20px);
+  position: relative;
+
+  @include media($tablet){
+    float: left;
+    height: 100%;
+    @include rem(padding, 70px);
+    width: 60%;
+  }
+
+  @include media($tablet-landscape) {
+    width: 50%;
+  }
+}
+
+/*-----------------------
+Testimonials
+-----------------------*/
+blockquote{
+  font-weight: $light;
+  @include rem(margin-bottom, 20px);
+  @include s-medium;
+  line-height: normal;
+  position: relative;
+
+  @include media($tablet){
+    @include center;
+    @include s-big;
+    line-height: normal;
+    max-width: 700px;
+  }
+
+  &:before{
+    color: $white-dark;
+    content: "\201C";
+    display: block;
+    font-family: Georgia;
+    @include position(absolute, -45px null null -30px);
+    @include s-giga;
+    z-index: -1;
+  }
+}
+
+cite{
+   @include center;
+   text-align: center;
+
+   .cite-block{
+     display: inline-block;
+   }
+
+  .headshot{
+    border-radius: 50%;
+    display: inline-block;
+    @include rem(margin-right, 10px);
+    width: 60px;
+    vertical-align: -12px;
+  }
+
+  p{
+    display: inline-block;
+    @include rem(margin-top, 8px);
+    text-align: left;
+  }
+}
+
+
+
+/*-----------------------
+Pricing
+-----------------------*/
+.pricing-blocks{
+
+  .image-block{
+    background: url('../../images/pouring-can.jpg') center no-repeat;
+    background-size: cover;
+  }
+
+  li{
+    display: flex;
+    @include rem(margin-top, 20px);
+    width: 100%;
+    @include s-small;
+
+   &:before{
+      background: url('../../images/checkmark.svg') center no-repeat;
+      background-size: 14px;
+      border-radius: 20em;
+      border: 1px solid $grey-base;
+      color: $grey-base;
+      content: "";
+      display: inline-table;
+      height: 30px;
+      float: left;
+      @include rem(margin, -4px 15px 0 0);
+      line-height: 1.8;
+      text-align: center;
+      width: 30px;
+    }
+  }
+
+  h4 span{
+    @include s-base;
+    @include rem(margin-bottom, 20px);
+    letter-spacing: normal;
+  }
+}
+
+/*-----------------------
+Book Collection
+-----------------------*/
+.books-container{
+  h2{ @include rem(margin-bottom, 30px); }
+  text-align: center;
+}
+
+.books-block{
+  li{
+    @include rem(margin-top, 30px);
+    text-align: center;
+
+    @include media($tablet){
+      @include span-columns(4 of 12);
+      @include omega(3n);
+    }
+
+    img{
+      @include center;
+      width: 60%;
+
+      @include media($tablet){
+        width: 100%;
+      }
+    }
+
+    label{ margin-top: 0px; }
+  }
+}
+
+
+/*-----------------------
+Contact
+-----------------------*/
+.contact-container{
+  text-align: center;
+  h2{ @include rem(margin-bottom, 30px); }
+  a{ @include rem(margin-top, 30px); }
+}
+
+.modal-inner{
+  h3{
+    @include rem(padding-right, 40px);
+  }
+}
+
+.modal-button-label {
+  display: inline-block;
+}
+
+.grey-wrapper{
+  background-color: $white-dark;
+
+  @include media($tablet){
+    @include rem(margin, 30px);
+  }
+}
